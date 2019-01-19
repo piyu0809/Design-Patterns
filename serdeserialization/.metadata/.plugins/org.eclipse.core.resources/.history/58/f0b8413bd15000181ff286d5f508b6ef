@@ -1,0 +1,34 @@
+package genericCheckpointing.util;
+
+public class DeserializeTypes {
+	public int deserializeInt(String val)
+	{
+		return Integer.parseInt(val);
+	}
+	public float deserializeFloat(String val)
+	{
+		return Float.parseFloat(val);
+	}
+	public double deserializeDouble(String val)
+	{
+		return Double.parseDouble(val);
+	}
+	public int deserializeInt(String val)
+	{
+		return Integer.parseInt(val);
+	}
+	public int deserializeInt(String val)
+	{
+		return Integer.parseInt(val);
+	}
+	public int deserializeInt(String val)
+	{
+		return Integer.parseInt(val);
+	}
+	public int deserializeInt(String val)
+	{
+		return Integer.parseInt(val);
+	}
+	
+	
+}

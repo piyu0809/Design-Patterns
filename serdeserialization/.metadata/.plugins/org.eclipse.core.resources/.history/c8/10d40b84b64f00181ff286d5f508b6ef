@@ -1,0 +1,46 @@
+package genericCheckpointing.util;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileProcessor {
+	FileWriter file=null;
+	public void openFile()
+    {
+    	try
+    	{
+    		//file = new BufferedWriter(new FileWriter(fileName));
+    		file =new FileWriter("src\\output.txt");
+    		file.write("Hello");
+    	}
+          catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (file != null) {
+					file.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+		
+    }
+    	public void writeToFile(String line) 
+    	{
+    		   
+				try {
+					file.write("\n"+line);
+					
+				} catch (IOException e) {
+		            System.err.println("Error writing to file. Exiting");
+		            e.printStackTrace();
+		            System.exit(1);
+		        } finally {
+
+		        }
+				
+			
+    	}
+}

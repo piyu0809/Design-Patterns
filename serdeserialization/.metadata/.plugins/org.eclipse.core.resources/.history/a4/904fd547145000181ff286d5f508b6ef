@@ -1,0 +1,136 @@
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">161</myInt>
+<myLong xsi:type="xsd:long">394</myLong>
+<myString xsi:type="xsd:string">DesignPattern0</myString>
+<myBool xsi:type="xsd:boolean">false</myBool>
+<myOtherInt xsi:type="xsd:int">461</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">146.42</myDoubleT>
+<myFloatT xsi:type="xsd:float">295.87726</myFloatT>
+<myShortT xsi:type="xsd:short">464</myShortT>
+<myCharT xsi:type="xsd:char">V</myCharT>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">59</myInt>
+<myLong xsi:type="xsd:long">64</myLong>
+<myString xsi:type="xsd:string">DesignPattern1</myString>
+<myBool xsi:type="xsd:boolean">true</myBool>
+<myOtherInt xsi:type="xsd:int">214</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">156.02</myDoubleT>
+<myFloatT xsi:type="xsd:float">131.82915</myFloatT>
+<myShortT xsi:type="xsd:short">125</myShortT>
+<myCharT xsi:type="xsd:char">N</myCharT>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">59</myInt>
+<myLong xsi:type="xsd:long">395</myLong>
+<myString xsi:type="xsd:string">DesignPattern2</myString>
+<myBool xsi:type="xsd:boolean">false</myBool>
+<myOtherInt xsi:type="xsd:int">203</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">58.06</myDoubleT>
+<myFloatT xsi:type="xsd:float">346.9075</myFloatT>
+<myShortT xsi:type="xsd:short">61</myShortT>
+<myCharT xsi:type="xsd:char">N</myCharT>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">175</myInt>
+<myLong xsi:type="xsd:long">334</myLong>
+<myString xsi:type="xsd:string">DesignPattern3</myString>
+<myBool xsi:type="xsd:boolean">true</myBool>
+<myOtherInt xsi:type="xsd:int">354</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">70.80</myDoubleT>
+<myFloatT xsi:type="xsd:float">138.08353</myFloatT>
+<myShortT xsi:type="xsd:short">518</myShortT>
+<myCharT xsi:type="xsd:char">Q</myCharT>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">154</myInt>
+<myLong xsi:type="xsd:long">245</myLong>
+<myString xsi:type="xsd:string">DesignPattern4</myString>
+<myBool xsi:type="xsd:boolean">false</myBool>
+<myOtherInt xsi:type="xsd:int">509</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">77.36</myDoubleT>
+<myFloatT xsi:type="xsd:float">155.18849</myFloatT>
+<myShortT xsi:type="xsd:short">599</myShortT>
+<myCharT xsi:type="xsd:char">J</myCharT>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">22</myInt>
+<myLong xsi:type="xsd:long">146</myLong>
+<myString xsi:type="xsd:string">DesignPattern5</myString>
+<myBool xsi:type="xsd:boolean">true</myBool>
+<myOtherInt xsi:type="xsd:int">58</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">100.62</myDoubleT>
+<myFloatT xsi:type="xsd:float">200.77664</myFloatT>
+<myShortT xsi:type="xsd:short">657</myShortT>
+<myCharT xsi:type="xsd:char">F</myCharT>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">78</myInt>
+<myLong xsi:type="xsd:long">492</myLong>
+<myString xsi:type="xsd:string">DesignPattern6</myString>
+<myBool xsi:type="xsd:boolean">false</myBool>
+<myOtherInt xsi:type="xsd:int">169</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">155.17</myDoubleT>
+<myFloatT xsi:type="xsd:float">337.971</myFloatT>
+<myShortT xsi:type="xsd:short">643</myShortT>
+<myCharT xsi:type="xsd:char">T</myCharT>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">78</myInt>
+<myLong xsi:type="xsd:long">395</myLong>
+<myString xsi:type="xsd:string">DesignPattern7</myString>
+<myBool xsi:type="xsd:boolean">true</myBool>
+<myOtherInt xsi:type="xsd:int">22</myOtherInt>
+</complexType>
+</DPSerialization>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<myDoubleT xsi:type="xsd:double">19.34</myDoubleT>
+<myFloatT xsi:type="xsd:float">211.30759</myFloatT>
+<myShortT xsi:type="xsd:short">263</myShortT>
+<myCharT xsi:type="xsd:char">L</myCharT>
+</complexType>
+</DPSerialization>

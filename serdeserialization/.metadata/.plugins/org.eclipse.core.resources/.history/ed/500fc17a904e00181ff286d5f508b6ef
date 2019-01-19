@@ -1,0 +1,10 @@
+package genericCheckpointing.util;
+
+public class DeserializeTypes {
+	public String serializeInt(int fieldName,int value)
+	{
+	
+		
+		return null;
+	}
+}

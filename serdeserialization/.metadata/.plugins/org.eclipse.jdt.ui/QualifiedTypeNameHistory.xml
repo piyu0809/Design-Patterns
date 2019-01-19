@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.reflect.Proxy"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.ProxyCreator"/>
+<fullyQualifiedTypeName name="java.lang.reflect.InvocationHandler"/>
+<fullyQualifiedTypeName name="genericCheckpointing.server.StoreRestoreI"/>
+<fullyQualifiedTypeName name="genericCheckpointing.server.RestoreI"/>
+<fullyQualifiedTypeName name="genericCheckpointing.server.StoreI"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.MyAllTypesSecond"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.MyAllTypesFirst"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.SerializableObject"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.SerStrategy"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.deserStrategy"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.XMLSerialization"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="genericCheckpointing.xmlStoreRestore.StoreRestoreHandler"/>
+<fullyQualifiedTypeName name="genericCheckpointing.driver.Driver"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.FileProcessor"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.XMLdeserialization"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="genericCheckpointing.util.CompareVecors"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,24 @@
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">0</myInt>
+<myOtherInt xsi:type="xsd:int">0</myInt>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">0</myInt>
+<myOtherInt xsi:type="xsd:int">0</myInt>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">0</myInt>
+<myOtherInt xsi:type="xsd:int">0</myInt>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesFirst>
+<myInt xsi:type="xsd:int">0</myInt>
+<myOtherInt xsi:type="xsd:int">0</myInt>
+<DPSerialization>
+<complexType xsi:type=class genericCheckpointing.util.MyAllTypesSecond>

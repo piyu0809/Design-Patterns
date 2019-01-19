@@ -1,0 +1,41 @@
+package genericCheckpointing.util;
+
+public class MyAllTypesFirst extends SerializableObject{
+int myInt;
+long myLong;
+String myString; 
+boolean myBool;
+int myOtherInt;
+public int getMyInt() {
+	return myInt;
+}
+public void setmyInt(int myInt) {
+	this.myInt = myInt;
+}
+public long getmyLong() {
+	return myLong;
+}
+public void setmyLong(long myLong) {
+	this.myLong = myLong;
+}
+public String getmyString() {
+	return myString;
+}
+public void setmyString(String myString) {
+	this.myString = myString;
+}
+public boolean getmyBool() {
+	return myBool;
+}
+public void setMyBool(boolean myBool) {
+	this.myBool = myBool;
+}
+public int getMyOtherInt() {
+	return myOtherInt;
+}
+public void setMyOtherInt(int myOtherInt) {
+	this.myOtherInt = myOtherInt;
+}
+
+
+}

@@ -1,0 +1,52 @@
+package genericCheckpointing.util;
+
+public class SerializeTypes {
+	public String serializeInt(String fieldName,int value)
+	{
+		String line="<"+fieldName+" xsi:type=\"xsd:int\">"+value+"</myInt>";
+		
+		return line;
+	}
+	public String serializeLong(String fieldName,long value)
+	{
+		String line="<"+fieldName+" xsi:type=\"xsd:long\">"+value+"</myInt>";
+		
+		return line;
+	}
+	public String serializeBool(String fieldName,boolean value)
+	{
+	
+		
+		return null;
+	}
+	public String serializeDouble(String fieldName,double value)
+	{
+	
+		
+		return null;
+	}
+	public String serializeString(String fieldName,String value)
+	{
+	
+		
+		return null;
+	}
+	public String serializeShort(String fieldName,short value)
+	{
+	
+		
+		return null;
+	}
+	public String serializeChar(String fieldName,char value)
+	{
+	
+		
+		return null;
+	}
+	public String serializeFloat(String fieldName,float value)
+	{
+	
+		
+		return null;
+	}
+}

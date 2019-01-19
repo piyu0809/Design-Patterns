@@ -1,0 +1,84 @@
+package genericCheckpointing.util;
+
+import java.io.IOException;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+import genericCheckpointing.driver.Driver;
+import genericCheckpointing.xmlStoreRestore.StoreRestoreHandler;
+
+public class XMLSerialization implements SerStrategy {
+
+	// FileProcessor p=new FileProcessor();
+	@Override
+	public void processInput(SerializableObject obj) {
+		SerializeTypes p=new SerializeTypes();
+		Class<?> cls = obj.getClass();
+		Field[] list = obj.getClass().getDeclaredFields();
+		StoreRestoreHandler.h.writeToFile("<DPSerialization>");
+		StoreRestoreHandler.h.writeToFile("<complexType xsi:type=" + cls + ">");
+		for (int i = 0; i < list.length; i++) {
+			Field fld = list[i];
+
+			String fieldName = fld.getName();
+			System.out.println(fieldName);
+			String methodName = "get" + fieldName;
+			
+			try {
+				Method getterMethod = cls.getMethod(methodName);
+				Object invokeRet = getterMethod.invoke(obj);
+				if (fld.getType() == Integer.TYPE) {
+                String line=p.serializeInt(fieldName, (int) invokeRet);
+                StoreRestoreHandler.h.writeToFile(line);
+				}
+				else if (fld.getType() == String.class) {
+	                String line=p.serializeString(fieldName, (String) invokeRet);
+	                StoreRestoreHandler.h.writeToFile(line);
+					}
+				else if (fld.getType() == float.class) {
+	                String line=p.serializeFloat(fieldName, (float) invokeRet);
+	                StoreRestoreHandler.h.writeToFile(line);
+					}
+				else if (fld.getType() == double.class) {
+	                String line=p.serializeDouble(fieldName, (double) invokeRet);
+	                StoreRestoreHandler.h.writeToFile(line);
+					}
+				else if (fld.getType() == short.class) {
+	                String line=p.serializeShort(fieldName, (short) invokeRet);
+	                StoreRestoreHandler.h.writeToFile(line);
+					}
+				else if (fld.getType() == long.class) {
+	                String line=p.serializeLong(fieldName, (long) invokeRet);
+	                StoreRestoreHandler.h.writeToFile(line);
+					}
+				else if (fld.getType() == Boolean.class) {
+	                String line=p.serializeBool(fieldName, (boolean) invokeRet);
+	                StoreRestoreHandler.h.writeToFile(line);
+					}
+				else if (fld.getType() == double.class) {
+	                String line=p.serializeDouble(fieldName, (double) invokeRet);
+	                StoreRestoreHandler.h.writeToFile(line);
+					}
+			} catch (NoSuchMethodException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SecurityException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalArgumentException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InvocationTargetException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+		}
+
+	}
+
+}

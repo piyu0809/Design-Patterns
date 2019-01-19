@@ -1,0 +1,33 @@
+package genericCheckpointing.util;
+
+public class MyAllTypesSecond extends SerializableObject{
+double myDoubleT;
+float myFloatT;
+short myShortT;
+char myCharT;
+public double getmyDoubleT() {
+	return myDoubleT;
+}
+public void setmyDoubleT(double myDoubleT) {
+	this.myDoubleT = myDoubleT;
+}
+public float getmyFloatT() {
+	return myFloatT;
+}
+public void setmyFloatT(float myFloatT) {
+	this.myFloatT = myFloatT;
+}
+public short getmyShortT() {
+	return myShortT;
+}
+public void setmyShortT(short myShortT) {
+	this.myShortT = myShortT;
+}
+public char getmyCharT() {
+	return myCharT;
+}
+public void setmyCharT(char myCharT) {
+	this.myCharT = myCharT;
+}
+
+}
